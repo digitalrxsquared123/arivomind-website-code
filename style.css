@@ -5867,6 +5867,29 @@ div.arivomind-side-slide h3 {
 	font-weight: 900 !important;
 }
 
+/**********Added link styles to fix link issues see next style rules***********/
+
+/* Read More link on the side slides */
+div.arivomind-side-slide .uagb-infobox-cta-link span.uagb-inline-editing,
+div.arivomind-side-slide .uagb-infobox-cta-link svg {
+  color: #ffa52d !important;
+  fill: #ffa52d !important;
+}
+
+/* Hover (mouse only) + keyboard focus: text and arrow change together */
+@media (hover: hover) {
+  div.arivomind-side-slide .uagb-infobox-cta-link:hover span.uagb-inline-editing,
+  div.arivomind-side-slide .uagb-infobox-cta-link:hover svg {
+    color: #6ec950 !important;
+    fill: #6ec950 !important;
+  }
+}
+div.arivomind-side-slide .uagb-infobox-cta-link:focus-visible span.uagb-inline-editing,
+div.arivomind-side-slide .uagb-infobox-cta-link:focus-visible svg {
+  color: #6ec950 !important;
+  fill: #6ec950 !important;
+}
+
 /****************EDITING LINK COLOR ISSUES TO FIX LINK ISSUES******************/
 
 /* div.arivomind-side-slide span.uagb-inline-editing, div.arivomind-side-slide svg {
