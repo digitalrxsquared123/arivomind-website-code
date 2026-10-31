@@ -6375,3 +6375,14 @@ div.wp-block-uagb-container.arivomind-container6.alignfull.uagb-is-root-containe
     padding-top: 0px !important;
 }
 
+/*****************Align Arivo Numbers Grid Mobile*********************/
+
+@media screen and (max-width: 768px) { 
+
+	.wp-block-group.arivomind-by-the-numbers-grid.is-layout-grid {
+    /* align-content: flex-start; */
+    align-items: flex-start;
+}
+
+}
+
