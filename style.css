@@ -5604,7 +5604,8 @@ div.arivomind-resources-column > div.wp-block-uagb-container {
 
 @media screen and (min-width: 976px) {
 
-	article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(-n+2), article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(n+4):nth-child(-n+6), article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(13), article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(16) {
+	article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(-n+2), article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(n+4):nth-child(-n+6), article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(13), article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(16), article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(12)
+ {
 		margin-bottom: 2em !important;
 	}
 
@@ -6582,4 +6583,34 @@ div.arivomind-side-slide div.uagb-ifb-content p {
 }
 
 
+
+/**************Add Padding for a section in mobile view*************/
+
+@media screen and (max-width: 768px) {
+
+	#post-11466 > div > div.wp-block-uagb-container.uagb-block-1f2d2a10.alignfull.uagb-is-root-container {
+    padding-top: 20px !important;
+}
+
+	#post-11466 > div > div.wp-block-uagb-container.uagb-block-1f2d2a10.alignfull.uagb-is-root-container > div > div.wp-block-uagb-advanced-heading.uagb-block-c2cc05f8 > h2 {
+    margin-top: 0px !important;
+}
+
+	#post-11466 > div > div.wp-block-uagb-container.arivomind-resources-container.uagb-block-4a601170.alignfull.uagb-is-root-container {
+    padding-top: 0px !important;
+}
+
+	#post-11466 > div > div.wp-block-uagb-container.arivomind-container9.uagb-block-2c9593e1.alignfull.uagb-is-root-container > div > div.wp-block-uagb-info-box.uagb-block-bddfd437.uagb-infobox__content-wrap.uagb-infobox-icon-above-title.uagb-infobox-image-valign-top > div > p {
+    margin-bottom: 0px;
+}
+
+}
+
+@media screen and (min-width: 1450px) {	
+
+	#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.arivomind-home-page-top-banner.uagb-block-e78647f7.alignfull.uagb-is-root-container {
+		margin-bottom: 10px !important;
+	}
+
+}
 
