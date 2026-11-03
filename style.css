@@ -6126,7 +6126,7 @@ div.swiper-wrapper > div.swiper-slide.wp-block-eedee-block-gutenslide.arivomind-
 @media screen and (min-width: 1450px) {
 
 	div.swiper-wrapper > div.swiper-slide.wp-block-eedee-block-gutenslide.arivomind-gutenslider-slide > div.slide-content {
-    padding-left: 350.5px !important;
+    padding-left: max(0px, (100% - 1200px) / 2) !important;
 }
 
 }
