@@ -5604,7 +5604,7 @@ div.arivomind-resources-column > div.wp-block-uagb-container {
 
 @media screen and (min-width: 976px) {
 
-	article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(-n+2), article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(n+4):nth-child(-n+6), article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(13), article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(n+15):nth-child(-n+16) {
+	article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(-n+2), article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(n+4):nth-child(-n+6), article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(13), article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(16) {
 		margin-bottom: 2em !important;
 	}
 
@@ -6126,7 +6126,7 @@ div.swiper-wrapper > div.swiper-slide.wp-block-eedee-block-gutenslide.arivomind-
 @media screen and (min-width: 1450px) {
 
 	div.swiper-wrapper > div.swiper-slide.wp-block-eedee-block-gutenslide.arivomind-gutenslider-slide > div.slide-content {
-    padding-left: 160.4px !important;
+    padding-left: 350.5px !important;
 }
 
 }
@@ -6403,6 +6403,183 @@ div.wp-block-uagb-container.arivomind-container6.alignfull.uagb-is-root-containe
     padding-bottom: 0px !important;
 }
 
+
+/***********Guten slide BG*******************/
+
+/* div.arivomind-gutenslider-slide {
+    background: linear-gradient(90deg, #e9e7fb 0%, #d4cff5 30%,#b3abee 60%,#d4cff5 85%,#e9e7fb 100%);
+} */
+
+
+
+/**************Arivo CS Card Mobile Font Size Reduction for fitting text in the card*************/
+
+@media screen and (max-width: 370px) { 
+
+p.arivo-cs-text {
+    font-size: 0.9rem;
+}
+
+div.arivo-cs-card h3 {
+    font-size: 1.5rem;
+}
+
+div.wp-block-uagb-container.arivo-cs-card > p.arivo-cs-text.wp-block-paragraph {
+    position: absolute !important;
+    top: 60%;
+    left: 15%;
+    width: 80% !important;
+}
+
+div.wp-block-uagb-slider-child.uagb-slider-child-wrap.swiper-slide.swiper-slide-active > div > div > div > div.wp-block-uagb-container.arivo-cs-card > div.wp-block-uagb-image.wp-block-uagb-image--layout-default.wp-block-uagb-image--effect-static.wp-block-uagb-image--align-none.arivo-cs-logo > figure {
+    left: 35%;
+}
+
+}
+
+
+@media screen and (min-width: 371px) and (max-width: 500px) { 
+
+p.arivo-cs-text {
+    font-size: 0.9rem;
+}
+
+div.arivo-cs-card h3 {
+    font-size: 1.5rem;
+}
+
+div.wp-block-uagb-container.arivo-cs-card > p.arivo-cs-text.wp-block-paragraph {
+    position: absolute !important;
+    top: 70%;
+    left: 10%;
+    width: 80% !important;
+}
+
+div.wp-block-uagb-slider-child.uagb-slider-child-wrap.swiper-slide.swiper-slide-active > div > div > div > div.wp-block-uagb-container.arivo-cs-card > div.wp-block-uagb-image.wp-block-uagb-image--layout-default.wp-block-uagb-image--effect-static.wp-block-uagb-image--align-none.arivo-cs-logo > figure {
+    left: 30%;
+}
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 770px) { 
+
+p.arivo-cs-text {
+    font-size: 0.75rem;
+}
+
+div.arivo-cs-card h3 {
+    font-size: 1.6rem;
+}
+
+div.wp-block-uagb-container.arivo-cs-card > p.arivo-cs-text.wp-block-paragraph {
+    position: absolute !important;
+    top: 70%;
+    left: 15%;
+    width: 80% !important;
+}
+
+
+}
+
+@media screen and (min-width: 771px) and (max-width: 976px) { 
+
+p.arivo-cs-text {
+    font-size: 0.8rem;
+}
+
+div.arivo-cs-card h3 {
+    font-size: 1.6rem;
+}
+
+div.wp-block-uagb-slider-child.uagb-slider-child-wrap.swiper-slide.swiper-slide-active > div > div > div > div.wp-block-uagb-container.arivo-cs-card > div.wp-block-uagb-image.wp-block-uagb-image--layout-default.wp-block-uagb-image--effect-static.wp-block-uagb-image--align-none.arivo-cs-logo > figure {
+	top: -1rem
+}
+
+}
+
+/****Arivo CS Slider Padding Fix ****/
+
+div.arivo-cs-slider div.swiper-wrapper > div.wp-block-uagb-slider-child > div.swiper-content {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+/**********ADJUST ARIVOMIND SIDE SLIDER HEIGHT FONT SIZE AND SPACING TO INCREASE IT AND SPREAD IT OUT*************/
+
+
+@media screen and (min-width: 819px) { 
+
+div.arivomind-side-slide.arivomind-side-slider-title div.arivomind-side-slider-title-slide h3 {
+	font-size: 3.5rem;
+}
+
+.arivomind-side-slider .swiper-wrapper {
+    height: 500px;
+}
+
+div.arivomind-side-slide {
+    display: flex;
+    align-items: center;
+}
+
+div.arivomind-side-slide div.uagb-ifb-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+div.arivomind-side-slide div.uagb-ifb-content span {
+    font-size: 1.5rem;
+}
+
+div.arivomind-side-slide div.uagb-ifb-content h3 {
+    font-size: 3rem;
+}
+
+div.arivomind-side-slide div.uagb-ifb-content p {
+    font-size: 1.5rem;
+}
+
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 818px) { 
+
+div.arivomind-side-slide.arivomind-side-slider-title div.arivomind-side-slider-title-slide h3 {
+	font-size: 3.5rem;
+}
+
+
+.arivomind-side-slider .swiper-wrapper {
+    height: 500px;
+}
+
+div.arivomind-side-slide {
+    display: flex;
+    align-items: center;
+}
+
+div.arivomind-side-slide div.uagb-ifb-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+div.arivomind-side-slide div.uagb-ifb-content span {
+    font-size: 1.25rem;
+}
+
+div.arivomind-side-slide div.uagb-ifb-content h3 {
+    font-size: 2.5rem;
+}
+
+div.arivomind-side-slide div.uagb-ifb-content p {
+    font-size: 1.25rem;
+}
+
+}
 
 
 
