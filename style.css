@@ -6748,6 +6748,16 @@ div.arivomind-container10 div.arivomind-home-page-buttons > div.wp-block-uagb-in
 
 
 
+/*********Margin above side slider section left column**********/
+
+@media screen and (min-width: 768px) {
+
+	#post-11466 > div > div.wp-block-uagb-container.arivomind-home-page-top-banner.uagb-block-e78647f7.alignfull.uagb-is-root-container > div > div.wp-block-uagb-container.uagb-block-660fdff1 > div.wp-block-uagb-info-box.uagb-block-3aef34b7.uagb-infobox__content-wrap.uagb-infobox-icon-above-title.uagb-infobox-image-valign-top > div > div.uagb-ifb-title-wrap > p {
+    margin-top: 0px;
+}
+
+}
+
 
 
 
