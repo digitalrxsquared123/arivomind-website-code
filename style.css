@@ -5613,9 +5613,7 @@ div.arivomind-resources-column > div.wp-block-uagb-container {
 		margin-bottom: 2em;
 }
 
-	article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(18) {
-		margin-bottom: 2.5em;
-}
+
 
 	/* div.wp-block-uagb-container.arivomind-by-the-numbers {
 		margin-bottom: 2em;
@@ -5626,6 +5624,15 @@ div.arivomind-resources-column > div.wp-block-uagb-container {
 }
 
 }
+
+@media screen and (min-width: 768px) {
+	
+		article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(18) {
+		margin-bottom: 2.5em;
+}
+
+}
+
 
 /*************RESPONSIVE STYLING********************/
 
@@ -6613,4 +6620,140 @@ div.arivomind-side-slide div.uagb-ifb-content p {
 	}
 
 }
+
+/**********Pull up side slider to remove extra space below it**********/
+
+@media screen and (min-width: 768px) {	
+
+	div.wp-block-uagb-container.arivomind-home-page-top-banner.alignfull.uagb-is-root-container > div.uagb-container-inner-blocks-wrap {
+		align-items: flex-start;
+	}
+
+}
+
+/***********‘6 steps to transformation’ background to white and text color black****************/
+
+div.entry-content.clear > div.wp-block-uagb-container.arivomind-platform-container.alignfull.uagb-is-root-container {
+    background: #fff;
+}
+
+div.entry-content.clear > div.wp-block-uagb-container.arivomind-platform-container.alignfull.uagb-is-root-container h2.wp-block-heading {
+    color: var(--ast-global-color-9) !important;
+}
+
+div.entry-content.clear > div.wp-block-uagb-container.arivomind-platform-container.alignfull.uagb-is-root-container div.wp-block-uagb-info-box p {
+    color: var(--ast-global-color-9);
+}
+
+div.entry-content.clear > div.wp-block-uagb-container.arivomind-platform-container.alignfull.uagb-is-root-container div.wp-block-uagb-info-box {
+    border-color: var(--ast-global-color-9);
+}
+
+/***********************************Uniform home page button width and aligning buttons for desktop************************************************/
+
+div.arivomind-container10 div.arivomind-home-page-buttons > div.wp-block-uagb-info-box a {
+    width: 128px;
+}
+
+/********************************Aligning home page buttons together**********************/
+
+
+@media screen and (min-width: 768px) {	
+
+
+	div.arivomind-container10 div.arivomind-home-page-buttons {
+    flex-direction: row;
+    gap: 4em;
+    justify-content: center;
+}
+
+
+div.arivomind-container10 div.arivomind-home-page-buttons > div.wp-block-uagb-info-box.arivomind-contact-button > div.uagb-ifb-content > div.uagb-ifb-button-wrapper.wp-block-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.arivomind-container10 div.arivomind-home-page-buttons > div.wp-block-uagb-info-box.arivomind-careers-button > div.uagb-ifb-content > div.uagb-ifb-button-wrapper.wp-block-button  {
+	display: flex;
+	justify-content: flex-start;
+}
+
+/* div.arivomind-container10 div.arivomind-home-page-buttons > div.wp-block-uagb-info-box.arivomind-careers-button > div.uagb-ifb-content > div.uagb-ifb-button-wrapper.wp-block-button > a, div.arivomind-container10 div.arivomind-home-page-buttons > div.wp-block-uagb-info-box.arivomind-contact-button > div.uagb-ifb-content > div.uagb-ifb-button-wrapper.wp-block-button > a {
+    display: flex;
+    justify-content: center;
+} */
+
+div.arivomind-container10 div.arivomind-home-page-buttons > div.wp-block-uagb-info-box.arivomind-careers-button > div.uagb-ifb-content > div.uagb-ifb-button-wrapper.wp-block-button > a {
+    display: flex;
+    justify-content: center;
+}
+
+div.arivomind-container10 div.arivomind-home-page-buttons > div.wp-block-uagb-info-box.arivomind-contact-button > div.uagb-ifb-content > div.uagb-ifb-button-wrapper.wp-block-button > a {
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+
+/*********Padding in button area***********/
+
+@media screen and (min-width: 550px) and (max-width: 600px) {	
+
+	#post-11466 > div > div.wp-block-uagb-container.arivomind-container10.uagb-block-d9e80550.alignfull.uagb-is-root-container > div > div.wp-block-uagb-advanced-heading.uagb-block-b5ce4cce > h2 {
+    margin-top: 0px !important;
+}
+
+}
+
+
+/*******Extra padding above the ‘6 steps to transformation’ section**********/
+
+@media screen and (min-width: 976px) {	
+
+	#primary > #main > #post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-block-1f2d2a10.alignfull.uagb-is-root-container {
+    margin-bottom: 0px !important;
+}
+
+}
+
+/***********Stray paddings************/
+
+@media screen and (max-width: 766px) {	
+
+	#post-11466 > div > div.wp-block-uagb-container.uagb-block-1f2d2a10.alignfull.uagb-is-root-container {
+    padding-top: 40px !important;
+}
+
+	#post-11466 > div > div.wp-block-uagb-container.arivomind-container9.uagb-block-2c9593e1.alignfull.uagb-is-root-container {
+		padding-top: 30px !important;
+	}
+
+	#post-11466 > div > div.wp-block-uagb-container.arivomind-blog-container.uagb-block-e372b25a.alignfull.uagb-is-root-container {
+    padding-top: 30px !important;
+	}
+
+	#post-11466 > div > div.wp-block-uagb-container.arivomind-container10.uagb-block-d9e80550.alignfull.uagb-is-root-container {
+    padding-top: 30px !important;
+    padding-bottom: 40px !important;
+	}
+
+	#post-11466 > div > div.wp-block-uagb-container.arivomind-platform-container.uagb-block-35299bba.alignfull.uagb-is-root-container > div > h2 {
+    margin-bottom: 0px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
