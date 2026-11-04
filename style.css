@@ -5625,10 +5625,12 @@ div.arivomind-resources-column > div.wp-block-uagb-container {
 
 }
 
+/***********Spacing below last section on home page****/
+
 @media screen and (min-width: 768px) {
 	
 		article#post-11466 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container:nth-child(18) {
-		margin-bottom: 2.5em;
+		margin-bottom: 3.12em;
 }
 
 }
