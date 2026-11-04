@@ -6758,6 +6758,12 @@ div.arivomind-container10 div.arivomind-home-page-buttons > div.wp-block-uagb-in
 
 }
 
+/*************************************************Margin TOP for home page top section*****************************************/
+
+#post-11466 > div > div.wp-block-uagb-container.arivomind-container1.alignfull.uagb-is-root-container {
+    margin-top: 20px;
+}
+
 
 
 
