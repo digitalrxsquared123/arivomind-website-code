@@ -6881,6 +6881,27 @@ figure.wp-block-image.arivo-our-story-img > img {
 
 }
 
+/***********Arivo Our Story Text Header****************/
+
+
+.wp-block-uagb-advanced-heading.arivo-our-story-heading > h1.uagb-heading-text {
+    color: #ffa52d !important;
+}
+
+
+/**************Split BG color for Vision Mission Parent container*************/
+
+.wp-block-uagb-container.arivo-vision-mission-container.uagb-is-root-container {
+    background: linear-gradient(
+    to right,
+    var(--ast-global-color-14) 0%,
+    var(--ast-global-color-14) 50%,
+    var(--ast-global-color-15) 50%,
+    var(--ast-global-color-15) 100%
+  );
+}
+
+
 
 
 
