@@ -6773,6 +6773,74 @@ div.entry-content.clear > div.wp-block-uagb-container.arivomind-platform-contain
 }
 
 
+/********Fixing overflow issue in the Arivomind 6 Step Container that was caused by a rogue margin presumably from Spectra!!*************/
+
+@media screen and (min-width: 768px) {
+
+	.wp-block-uagb-container.arivomind-6-step-column1 > div.wp-block-uagb-info-box {
+    margin-right: 0 !important;
+}
+
+}
+
+
+/**************************************++++++++++++++++++++++++++NEW ABOUT PAGE STYLING++++++++++++++++++++++++++++++++*****************************/
+
+/**********Center my story image*************/
+
+.wp-block-uagb-container.arivo-our-story-img-container > figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1250px) {
+
+	.wp-block-uagb-container.arivo-our-story-img-container > figure > img {
+    width: 50%;
+    height: auto;
+}
+
+}
+
+@media screen and (max-width: 1249px) {
+
+	.wp-block-uagb-container.arivo-our-story-img-container > figure > img {
+    width: 75%;
+    height: auto;
+}
+
+}
+
+/****Our story heading********/
+
+@media screen and (max-width: 600px) {
+
+	.wp-block-uagb-advanced-heading.arivo-our-story-heading > h1 {
+    margin-top: 0 !important;
+}
+
+}
+
+
+
+@media screen and (max-width: 1250px) {
+
+	article#post-11887 > div.entry-content.clear > div.wp-block-uagb-container.uagb-is-root-container {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+}
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 976px) {
+
+	.wp-block-uagb-container.arivo-our-story-top-container.alignfull.uagb-is-root-container {
+    padding-top: 35px;
+}
+
+}
+
 
 
 
