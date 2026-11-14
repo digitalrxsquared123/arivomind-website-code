@@ -6872,6 +6872,7 @@ div.entry-content.clear > div.wp-block-uagb-container.arivomind-platform-contain
 
   div.wp-block-uagb-info-box.arivo-our-story-text > div.uagb-ifb-content > p.uagb-ifb-desc {
   min-height: var(--shared-block-height);
+  margin-bottom: 0px;
 }
 
 figure.wp-block-image.arivo-our-story-img > img {
