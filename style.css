@@ -6912,6 +6912,13 @@ figure.wp-block-image.arivo-our-story-img > img {
   }
 }
 
+/********Set spacing*****/
+
+div.entry-content.clear > div.wp-block-uagb-container.arivo-vision-mission-container.alignfull.uagb-is-root-container {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
 
 
 
