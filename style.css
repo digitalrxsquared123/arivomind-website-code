@@ -6924,6 +6924,19 @@ p.arivo-vision-mission-text.wp-block-paragraph {
     margin-bottom: 0px;
 }
 
+/************Left aligning icon*******/
+
+@media screen and (max-width: 767px) {
+
+	.wp-block-uagb-image.arivo-vision-mission-img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+}
+
+
+
 
 
 
