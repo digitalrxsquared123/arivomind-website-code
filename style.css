@@ -6920,6 +6920,10 @@ div.entry-content.clear > div.wp-block-uagb-container.arivo-vision-mission-conta
     padding-bottom: 40px !important;
 }
 
+p.arivo-vision-mission-text.wp-block-paragraph {
+    margin-bottom: 0px;
+}
+
 
 
 
