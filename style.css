@@ -6874,8 +6874,7 @@ div.wp-block-uagb-info-box.arivo-our-story-text > div.uagb-ifb-content > p.uagb-
 
 figure.wp-block-image.arivo-our-story-img > img {
   height: var(--shared-block-height);
-  width: 100%;
-  object-fit: cover;
+  width: auto;
 }
 
 
