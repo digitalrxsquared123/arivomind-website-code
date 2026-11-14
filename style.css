@@ -6842,7 +6842,41 @@ div.entry-content.clear > div.wp-block-uagb-container.arivomind-platform-contain
 }
 
 
+@media screen and (max-width: 766px) {
 
+	.wp-block-uagb-advanced-heading.arivo-our-story-heading > h1 {
+    text-align: left;
+}
+
+	.wp-block-uagb-advanced-heading.arivo-our-story-heading {
+		margin-top: 40px !important;
+}
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 770px) {
+
+	.wp-block-uagb-advanced-heading.arivo-our-story-heading {
+    margin-top: 60px !important;
+}
+
+}
+
+/***********Matching p and img heights on the Our Story section About Page***********/
+
+:root {
+  --shared-block-height: 356.55px;
+}
+
+div.wp-block-uagb-info-box.arivo-our-story-text > div.uagb-ifb-content > p.uagb-ifb-desc {
+  min-height: var(--shared-block-height);
+}
+
+figure.wp-block-image.arivo-our-story-img > img {
+  height: var(--shared-block-height);
+  width: 100%;
+  object-fit: cover;
+}
 
 
 
