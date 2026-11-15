@@ -6955,7 +6955,7 @@ p.arivo-vision-mission-text.wp-block-paragraph {
 .wp-block-uagb-container.arivo-principles-card-container.alignfull.uagb-is-root-container {
     border-radius: 25px;
     height: 95%;
-    padding: 25px 10px 5px 10px;
+    padding: 25px 10px 25px 10px;
 }
 
 .wp-block-uagb-container.arivo-principles-card-container.alignfull.uagb-is-root-container > div {
@@ -6979,6 +6979,7 @@ p.arivo-vision-mission-text.wp-block-paragraph {
 
 .wp-block-uagb-container.arivo-principles-card-container-col2 > p {
     margin-top: -20px;
+	margin-bottom: 0;
 }
 
 
