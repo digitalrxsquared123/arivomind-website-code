@@ -6960,6 +6960,7 @@ p.arivo-vision-mission-text.wp-block-paragraph {
 
 .wp-block-uagb-container.arivo-principles-card-container.alignfull.uagb-is-root-container > div {
     gap: 15px !important;
+	align-items: flex-start !important;
 }
 
 .wp-block-uagb-container.arivo-principles-card-container-col2 {
