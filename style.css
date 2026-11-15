@@ -6836,7 +6836,7 @@ div.entry-content.clear > div.wp-block-uagb-container.arivomind-platform-contain
 @media screen and (min-width: 700px) and (max-width: 976px) {
 
 	.wp-block-uagb-container.arivo-our-story-top-container.alignfull.uagb-is-root-container {
-    padding-top: 35px;
+    padding-top: 40px;
 }
 
 }
@@ -6858,6 +6858,14 @@ div.entry-content.clear > div.wp-block-uagb-container.arivomind-platform-contain
 
 	.wp-block-uagb-advanced-heading.arivo-our-story-heading {
     margin-top: 40px !important;
+}
+
+}
+
+@media screen and (min-width: 771px) and (max-width: 1500px) {
+
+	.wp-block-uagb-advanced-heading.arivo-our-story-heading {
+    margin-top: 0px !important;
 }
 
 }
