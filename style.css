@@ -6952,10 +6952,10 @@ p.arivo-vision-mission-text.wp-block-paragraph {
 
 /***************ARIVO GUIDING PRINCIPLES CONTAINER AND GRID***************/
 
-.wp-block-uagb-container.arivo-principles-card-container.alignfull.uagb-is-root-container {
+div.arivo-principles-main-container div.wp-block-uagb-container.arivo-principles-sub-container > div > div.wp-block-uagb-container.arivo-principles-card-container.alignfull.uagb-is-root-container {
     border-radius: 25px;
     height: 95%;
-    padding: 25px 10px 25px 10px;
+    padding: 25px 10px 25px 10px !important;
 }
 
 .wp-block-uagb-container.arivo-principles-card-container.alignfull.uagb-is-root-container > div {
@@ -6983,22 +6983,42 @@ p.arivo-vision-mission-text.wp-block-paragraph {
 }
 
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 766px) {
 
 	div.wp-block-uagb-container.arivo-principles-sub-container > div.wp-block-group {
     grid-template-columns: 1fr 1fr;
 }
 
-div.wp-block-uagb-container.arivo-principles-sub-container div.wp-block-uagb-container.arivo-principles-card-container.alignfull.uagb-is-root-container {
-	padding: 15px 25px 30px 25px !important;
+div.arivo-principles-main-container div.wp-block-uagb-container.arivo-principles-sub-container > div > div.wp-block-uagb-container.arivo-principles-card-container.alignfull.uagb-is-root-container {
+	padding: 15px 25px 25px 25px !important;
 	height: 100%;
 }
 
 }
 
+@media screen and (min-width: 767px) and (max-width: 770px) {
+
+	div.arivo-principles-main-container div.wp-block-uagb-container.arivo-principles-sub-container > div > div.wp-block-uagb-container.arivo-principles-card-container.alignfull.uagb-is-root-container {
+		padding: 15px 25px 25px 25px !important;
+	}
+
+}
+
+
+@media screen and (max-width: 1067px) {
+
+	.wp-block-uagb-container.arivo-principles-card-container.alignfull.uagb-is-root-container > div {
+	align-items: center !important;
+}
+
+}
 
 
 
+article#post-11887 > div.entry-content.clear > div.wp-block-uagb-container.arivo-principles-main-container.uagb-is-root-container {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
 
 
 
