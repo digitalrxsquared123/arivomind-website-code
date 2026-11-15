@@ -6968,6 +6968,20 @@ p.arivo-vision-mission-text.wp-block-paragraph {
     flex-wrap: wrap;
 }
 
+.wp-block-uagb-container.arivo-principles-card-container-col2 > h4 {
+    font-size: 1rem;
+}
+
+.wp-block-uagb-container.arivo-principles-card-container-col2 > p {
+    font-size: 0.9rem;
+}
+
+.wp-block-uagb-container.arivo-principles-card-container-col2 > p {
+    margin-top: -20px;
+}
+
+
+
 
 
 
