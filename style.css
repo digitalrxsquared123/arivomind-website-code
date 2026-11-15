@@ -6983,6 +6983,19 @@ p.arivo-vision-mission-text.wp-block-paragraph {
 }
 
 
+@media screen and (max-width: 767px) {
+
+	div.wp-block-uagb-container.arivo-principles-sub-container > div.wp-block-group {
+    grid-template-columns: 1fr 1fr;
+}
+
+.wp-block-uagb-container.arivo-principles-card-container.alignfull.uagb-is-root-container {
+	padding: 25px;
+}
+
+}
+
+
 
 
 
