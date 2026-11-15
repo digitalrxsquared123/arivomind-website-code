@@ -6950,6 +6950,21 @@ p.arivo-vision-mission-text.wp-block-paragraph {
 
 }
 
+/***************ARIVO GUIDING PRINCIPLES CONTAINER AND GRID***************/
+
+.wp-block-uagb-container.arivo-principles-card-container.alignfull.uagb-is-root-container {
+    border-radius: 25px;
+    padding: 25px;
+    width: calc(100% / 3);
+    height: 65%;
+}
+
+.wp-block-uagb-container.arivo-principles-card-container.alignfull.uagb-is-root-container > div {
+    gap: 15px !important;
+}
+
+
+
 
 
 
