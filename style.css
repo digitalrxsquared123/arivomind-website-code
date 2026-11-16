@@ -116,7 +116,7 @@ Template: astra
 /************Hover effect for Services Page Links****************************/
 
 #post-1817 > div > div.wp-block-uagb-container.uagb-block-94fc5d7a.alignfull.uagb-is-root-container > div > div.wp-block-uagb-container > div.wp-block-uagb-container > div.wp-block-uagb-info-box.uagb-infobox__content-wrap.uagb-infobox_cta-type-all.uagb-infobox-icon-above-title.uagb-infobox-image-valign-top:hover {
-    background-color: #6ec95030;
+    background-color: #ffa52d30;
     border-radius: 5px;
 }
 
@@ -7019,6 +7019,99 @@ article#post-11887 > div.entry-content.clear > div.wp-block-uagb-container.arivo
     padding-top: 40px !important;
     padding-bottom: 40px !important;
 }
+
+
+/***********What we offer section************/
+
+article#post-11887 > div.entry-content.clear > div.wp-block-uagb-container.arivo-what-we-offer-container.uagb-is-root-container {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+div.wp-block-uagb-container.arivo-what-we-offer-container.uagb-is-root-container > div > div.wp-block-uagb-container.arivo-what-we-offer-services-container > .wp-block-uagb-container.arivo-what-we-offer-services-sub-container {
+    padding-top: 15px;
+}
+
+#post-11887 > div > div.wp-block-uagb-container.arivo-what-we-offer-container.alignfull.uagb-is-root-container > div > div.wp-block-uagb-advanced-heading.arivo-what-we-offer-heading > div {
+    display: none;
+}
+
+
+@media screen and (max-width: 400px) {
+
+	div.wp-block-uagb-container.arivo-principles-sub-container > div.wp-block-group {
+    grid-template-columns: 1fr;
+}
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+	#post-11887 > div.entry-content.clear > div.wp-block-uagb-container.arivo-what-we-offer-container.alignfull.uagb-is-root-container > div > div.wp-block-uagb-advanced-heading.arivo-what-we-offer-heading > h3 {
+    margin-top: 0 !important;
+}
+
+}
+
+
+@media screen and (max-width: 766px) {
+
+	div.wp-block-uagb-container.arivo-what-we-offer-container.alignfull.uagb-is-root-container > div > div.wp-block-uagb-container.arivo-what-we-offer-services-container > div.wp-block-uagb-container.arivo-what-we-offer-services-sub-container {
+    padding-bottom: 0;
+}
+
+}
+
+/**********About Us Page Button************/
+
+div.entry-content.clear > div.wp-block-uagb-container.arivo-about-us-buttons-container.uagb-is-root-container {
+    position: relative !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+div.entry-content.clear > div.wp-block-uagb-container.arivo-about-us-buttons-container.alignfull.uagb-is-root-container > div > div > div > div.uagb-ifb-button-wrapper.wp-block-button > a {
+    padding: 25px 50px;
+    border-radius: 6px;
+    background-color: var(--ast-global-color-12);
+    color: var(--ast-global-color-5);
+    transition: background-color .2s, color .2s;
+}
+
+
+@media (hover: hover) {
+  div.entry-content.clear > div.wp-block-uagb-container.arivo-about-us-buttons-container.alignfull.uagb-is-root-container > div > div > div > div.uagb-ifb-button-wrapper.wp-block-button > a:hover {
+    background-color: var(--ast-global-color-8);
+    color: var(--ast-global-color-9) !important;
+  }
+}
+
+/* div.entry-content.clear > div.wp-block-uagb-container.arivo-about-us-buttons-container.alignfull.uagb-is-root-container > div > div > div > div.uagb-ifb-button-wrapper.wp-block-button > a:focus-visible {
+  background-color: var(--ast-global-color-8);
+  color: var(--ast-global-color-9) !important;
+} */
+
+div.entry-content.clear > div.wp-block-uagb-container.arivo-about-us-buttons-container.alignfull.uagb-is-root-container > div > div > div > div.uagb-ifb-button-wrapper.wp-block-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+/****************************************Services Page Mobile Header**************************************/
+
+@media screen and (max-width: 770px) {
+
+	#ast-mobile-header > div.ast-above-header-wrap > div > div > div.site-header-above-section-left.site-header-section.ast-flex.site-header-section-left > div {
+    margin-bottom: 0 !important;
+}
+
+}
+
+
+
 
 
 
