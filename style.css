@@ -7153,21 +7153,74 @@ div.wp-block-button.arivo-partner-with-us-button > .uagb-button__wrapper >.uagb-
     min-width: 0;
     line-height: 1.4;
     text-align: center;
-    font-size: 12px;
+    font-size: 0.875rem;
 }
 
 @media screen and (max-width: 768px) {
 
 	div.wp-block-button.arivo-partner-with-us-button > .uagb-button__wrapper >.uagb-buttons-repeater {
 	max-width: 250px;      /* wrap point; adjust */
-	padding: 8px 10px;
+	padding: 18px 32px;
 }
 
 #post-11887 > div.entry-content.clear > div.wp-block-uagb-container.uag-blocks-common-selector.alignfull.uagb-is-root-container > div > div.wp-block-uagb-buttons.arivo-partner-with-us-buttons > div > div > div > a > div {
-    font-size: 9px;
+    font-size: 0.875rem;
 }
 
 }
+
+
+/*****Positioning the CY preferences selector button******/
+
+/* body > div.cky-btn-revisit-wrapper.cky-revisit-bottom-left {
+    left: 25%;
+    bottom: 5%;
+} */
+
+/****Hiding the Captcha*******/
+
+/* body > div.rc-anchor {
+    display: none !important;
+} */
+/***********Adjusting scroll to top**********/
+
+#ast-scroll-top {
+    bottom: 8em !important;
+    right: 2em !important;
+}
+
+
+/*****Partner with us button*****/
+
+div.wp-block-uagb-advanced-heading.arivo-partner-with-us-heading > h2 {
+    font-size: 2.2rem;
+}
+
+/****About Us Extra Space********/
+
+@media screen and (max-width: 767px) {
+
+	div.wp-block-uagb-container.arivo-our-story-top-container.alignfull.uagb-is-root-container div.wp-block-uagb-info-box.arivo-our-story-text  p {
+    margin-bottom: 0;
+}
+
+div > div.wp-block-uagb-container.arivo-our-story-top-container.alignfull.uagb-is-root-container div.wp-block-uagb-container.arivo-our-story-img-container {
+    padding-top: 0 !important;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	div > div.wp-block-uagb-container.arivo-partner-with-us-container.alignfull.uagb-is-root-container div.wp-block-uagb-advanced-heading.arivo-partner-with-us-heading > h2 {
+    margin-top: 20px !important;
+}
+
+}
+
+
+
+
 
 
 
