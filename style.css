@@ -6912,8 +6912,8 @@ figure.wp-block-image.arivo-our-story-img > img {
     to right,
     var(--ast-global-color-14) 0%,
     var(--ast-global-color-14) 50%,
-    var(--ast-global-color-15) 50%,
-    var(--ast-global-color-15) 100%
+    var(--ast-global-color-16) 50%,
+    var(--ast-global-color-16) 100%
   );
 }
 
@@ -7110,6 +7110,64 @@ div.entry-content.clear > div.wp-block-uagb-container.arivo-about-us-buttons-con
 
 }
 
+
+
+/**************Buttons****************/
+
+article.type-page > div.entry-content.clear > div.wp-block-uagb-container.alignfull.uagb-is-root-container div.wp-block-uagb-buttons a {
+    background-color: var(--ast-global-color-12);
+    color: var(--ast-global-color-5);
+    transition: background-color .2s, color .2s;
+	margin-bottom: 20px;
+}
+
+
+
+@media (hover: hover) {
+  article.type-page > div.entry-content.clear > div.wp-block-uagb-container.alignfull.uagb-is-root-container div.wp-block-uagb-buttons a:hover {
+    background-color: var(--ast-global-color-8);
+    color: var(--ast-global-color-9) !important;
+  }
+}
+
+
+div.wp-block-button.arivo-partner-with-us-button > .uagb-button__wrapper >.uagb-buttons-repeater {
+	max-width: 340px;      /* wrap point; adjust */
+	white-space: normal;
+	text-align: left;
+	align-items: center;   /* keeps arrow centered vertically */
+}
+
+div.wp-block-button.arivo-partner-with-us-button > .uagb-button__wrapper >.uagb-buttons-repeater > div.uagb-button_link {
+	white-space: normal !important;
+	min-width: 0 !important;          /* lets the text shrink inside the flex button */
+	line-height: 1.4 !important;
+}
+
+div.wp-block-button.arivo-partner-with-us-button > .uagb-button__wrapper >.uagb-buttons-repeater > div.uagb-button_link > span.uagb-button__icon {
+	flex-shrink: 0 !important;
+}
+
+#post-11887 > div.entry-content.clear > div.wp-block-uagb-container.uag-blocks-common-selector.alignfull.uagb-is-root-container > div > div.wp-block-uagb-buttons.arivo-partner-with-us-buttons > div > div > div > a > div {
+    white-space: normal;
+    min-width: 0;
+    line-height: 1.4;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+
+	div.wp-block-button.arivo-partner-with-us-button > .uagb-button__wrapper >.uagb-buttons-repeater {
+	max-width: 250px;      /* wrap point; adjust */
+	padding: 8px 10px;
+}
+
+#post-11887 > div.entry-content.clear > div.wp-block-uagb-container.uag-blocks-common-selector.alignfull.uagb-is-root-container > div > div.wp-block-uagb-buttons.arivo-partner-with-us-buttons > div > div > div > a > div {
+    font-size: 9px;
+}
+
+}
 
 
 
